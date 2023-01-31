@@ -11,4 +11,8 @@ public class Stack<E extends Comparable<E>> {
     public void push(E key) {
         stack.push(key);
     }
+
+    public void peak() {
+        System.out.println(stack.head.key);
+    }
 }

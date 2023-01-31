@@ -11,5 +11,7 @@ public class StackMain {
         integerStack.push(56);
         integerStack.stack.display();
         System.out.println("Size of Stack is " + integerStack.stack.size());
+        integerStack.peak();
+
     }
 }
